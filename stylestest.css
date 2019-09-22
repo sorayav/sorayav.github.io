@@ -4,6 +4,7 @@
 }
 
 p {
+  display: block;
   width: 80%;
   margin: 30px auto;
   font: 15px Arial, sans-serif;
