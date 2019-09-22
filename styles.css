@@ -6,13 +6,13 @@
 #magic {
   display: block;
   width:384px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 p {
   display: block;
-  width: 400px;
-  margin: 50px auto;
+  width: 600px;
+  margin: 30px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
