@@ -9,13 +9,15 @@ body {
 }
 
   #header {
-  width:100%;
-  position:relative;
-background-color: salmon;
-font-family:Abril Fatface;
-font-size:60px;
-text-align:center;
-z-index:1;
+    width:100%;
+    position:relative;
+    background-color: salmon;
+    font-family:Abril Fatface;
+    font-size:60px;
+    text-align:center;
+    z-index:1;
+    padding-top:20px;
+    padding-bottom:20px;
 }
   
   #header:hover {
