@@ -1,46 +1,53 @@
 body {
-  width:100%;
   margin-top:40px;
   margin-left:0px;
   margin-right:0px;
+  margin-bottom:0px;
   padding:0px;
   text-align:center;
+  font-family:Arial;
 }
 
-  .header {
-  display:inline;
-  width: 100%;
+  #header {
+  width:100%;
   position:relative;
-  background-color: salmon;
-  font-family:Abril Fatface;
-  font-size:60px;
-  text-align:center;
+background-color: salmon;
+font-family:Abril Fatface;
+font-size:60px;
+text-align:center;
+z-index:1;
 }
+  
+  #header:hover {
+    background-color:indianred;
+    color:white;
+  }
 
 h1 {
   display:block;
-  position:absolute;
+  position:relative;
   margin:30px 20px 20px 280px;
   padding:5px;
   font-family:Abril Fatface;
   font-size: 30px;
+  text-align:left;
   border-bottom: solid 1px black;
   z-index:2;
-  
 }
-  .header:hover {
-    background-color:indianred;
-  }
 
 .content {
   display:block;
-  position:absolute;
-  margin-top: 80px;
+  position:relative;
+  margin-top: 30px;
   margin-left: 280px; 
   margin-right:40px;
   text-align:justify;
   
 }
+  
+  p .content {
+    margin-bottom:20px;
+  }
 
 p {
   margin-top: 10px;
@@ -65,10 +72,9 @@ a:hover {
     margin-left:40px;
     padding:10px;
     position:fixed;
-    float:left;
     z-index:3;
-    overflow-y:auto;
-    overflow-x:auto;
+    overflow: visible;
+    text-align: justify;
   }
   
   .button-grp {
@@ -78,7 +84,6 @@ a:hover {
     display:inline-block;
     margin-top:50px;
     text-align:center;
-    
   }
   
   .button {
@@ -95,4 +100,27 @@ a:hover {
   
   .button:hover {
     background-color:black;
+  }
+  
+  table, th, td {
+    border: solid 1px salmon;
+  }
+  
+  th {
+    background-color:indianred;
+  }
+  
+  th, td {
+    padding:20px;
+  }
+  
+  footer {
+    position:relative;
+    background-color:black;
+    color:white;
+    z-index:3;
+    margin-top:40px;
+    padding-top:10px;
+    padding-bottom:30px;
+    border-top: solid 1px black;
   }
