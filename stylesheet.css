@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  text-align:center;
-  font-family:Arial, sans-serif;
-  font-size:15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
   overflow-x: hidden;
 }
 
@@ -10,42 +10,42 @@ body {
     width:100%;
     position:relative;
     background-color: salmon;
-    font-family:Abril Fatface;
-    font-size:60px;
-    text-align:center;
-    z-index:1;
-    padding-top:20px;
-    padding-bottom:20px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    text-align: center;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
   
   #header:hover {
-    background-color:indianred;
-    color:white;
+    background-color: indianred;
+    color: white;
   }
 
 h1 {
-  display:block;
-  position:relative;
-  margin:30px 20px 20px 280px;
-  padding:5px;
-  font-family:Abril Fatface;
+  display: block;
+  position: relative;
+  margin: 30px 20px 20px 280px;
+  padding: 5px;
+  font-family: 'Abril Fatface', cursive;
   font-size: 30px;
-  text-align:left;
+  text-align: left;
   border-bottom: solid 1px black;
-  z-index:2;
+  z-index: 2;
 }
 
 .content {
-  display:block;
-  position:relative;
+  display: block;
+  position: relative;
   margin-top: 30px;
   margin-left: 280px; 
-  margin-right:40px;
-  text-align:justify;
+  margin-right: 40px;
+  text-align: justify;
 }
   
   p .content {
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 
 p {
@@ -62,25 +62,25 @@ a:hover {
 }
 
 .left-column {
-  font-family:sans-serif;
-  font-size:12px;
+  font-family: sans-serif;
+  font-size: 12px;
   border: dashed 4px salmon;
-  width:170px;
-  height:100%;
-  margin-top:50px;
-  margin-left:40px;
-  padding:12px;
-  position:fixed;
-  z-index:3;
+  width: 170px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 40px;
+  padding: 12px;
+  position: fixed;
+  z-index: 3;
   overflow: visible;
   text-align: justify;
   }
   
 .left-column img {
-  width:80%;
-  text-align:center;
-  padding:15px;
-  float:inherit;
+  width: 80%;
+  text-align: center;
+  padding: 15px;
+  float: inherit;
   }
   
   .left-column img:hover {
@@ -89,24 +89,24 @@ a:hover {
   
 .button-grp {
     margin-left: 250px;
-    position:relative;
-    display:flex;
+    position: relative;
+    display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin-top:50px;
-    text-align:center;
+    margin-top: 50px;
+    text-align: center;
   }
   
   .button {
-    width:200px;
-    height:200px;
-    border-radius:100px;
-    background-color:indianred;
-    font-size:30px;
-    font-family:Josefin Sans;
-    color:white;
-    position:static;
-    margin:10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: indianred;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    position: static;
+    margin: 10px;
   }
 
   .button a {
@@ -122,7 +122,6 @@ a:hover {
 .button3:hover {
   font-size: 0;
 }
-
 .button3:hover::after {
   content: "Empty!";
   font-size: 30px;
@@ -134,11 +133,11 @@ a:hover {
   }
   
   th {
-    background-color:indianred;
+    background-color: indianred;
   }
   
   th, td {
-    padding:20px;
+    padding: 20px;
   }
   
 footer {
@@ -146,10 +145,10 @@ footer {
   clear: both;
   width: 100%;
   margin-top: 30px;
-  background-color:black;
-  color:white;
-  z-index:3;
-  padding-top:20px;
-  padding-bottom:20px;
+  background-color: black;
+  color: white;
+  z-index: 3;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: solid 1px black;
   }
