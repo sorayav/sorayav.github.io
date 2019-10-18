@@ -117,12 +117,12 @@ a:hover {
   .button:hover {
     background-color: lightsalmon; /* for browsers that do not support gradients */
     background-image: linear-gradient(to right, salmon , lightsalmon);
-    
   }
 
 .button3:hover {
   font-size: 0;
 }
+
 .button3:hover::after {
   content: "Empty!";
   font-size: 30px;
