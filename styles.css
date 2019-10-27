@@ -1,25 +1,77 @@
-* {
-  margin:0px;
-  padding:0px;
+body {
+  width: 100%;
+  background: linear-gradient(to top right, #D7D7D7, white);
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Arial";
 }
 
-#magic {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+.headerbox {
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  background: none;
+  border: solid 0.5px #F6F6F6;
+  box-shadow: -5px 0px 8px #D8D8D8;
 }
 
-p {
-  display: block;
-  width: 600px;
-  margin: 30px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.headerbox:hover {
+  animation-name: background-color;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
 }
 
-a {
-  color: red;
+@keyframes background-color {
+  25% {
+    transform: skewY(-10deg);
+    background: black;
+  }
+  50% {
+    background: #D2C6F7;
+    box-shadow: 0px 0px 80px #white;
+    transform: skewX(-10deg);
+  }
+  100% {
+    background: white;
+  }
 }
 
-a:hover {
-  font-weight: bold;
+#h1box {
+  position: relative;
+  margin: 125px 50px 100px 80px;
+  padding: 15px;
+  width: 150px;
+  height: 150px;
+  border: solid 6px #767676;
+  box-shadow: 0px -65px 0px 25px #D2C6F7;
+  font-family: 'Teko', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #767676;
+  text-align: center;
+  background: white;
+}
+
+h1 #h1box {
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  margin-top: 70px;
+}
+main {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Open Sans', sans-serif;
+  width: 800px;
+  text-align: justify;
 }
