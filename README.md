@@ -1,6 +1,7 @@
 # Hi there
 
-My name is Soraya and I'm a front-end development learner. After a HTML & CSS introduction course on Khan Academy I created my [first website from scratch](https://sorayav.github.io/first-website) (pardon my code!).
-I'm currently exploring other courses, projects and the wonderful world of the version control systems (pardon my random merges!).
+My name is Soraya and I'm a front-end development learner. I'm currently studying on my own with great and open resources (Khan Academy, The Odin Project, FreeCodeCamp, etc.) while creating small projects such as static websites.
+
+I'm also exploring the wonderful world of the version control systems and so I apologize beforehand for the random merges you'll see here.
 
 Thanks for checking!
