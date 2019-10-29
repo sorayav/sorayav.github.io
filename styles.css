@@ -74,7 +74,7 @@ h2::after {
   font-size: 30px;
   animation-name: arrow1;
   animation-duration: 6000ms;
-  animation-delay: 6000ms;
+  animation-delay: 4000ms;
   animation-fill-mode: forwards;
 }
 
@@ -138,14 +138,13 @@ li:hover {
   ul {
     display: flex;
     flex-direction: row wrap;
-    justify-content: space-between;
   }
   li {
     flex-direction: row wrap;
   }
 }
 
-.buttontop {
+#buttontop {
   position: fixed;
   float: right;
   bottom: 30px;
@@ -159,12 +158,13 @@ li:hover {
   font-weight: bolder;
 }
 
-.buttontop a {
+#buttontop a {
   position:relative;
   top: 13px;
   text-decoration: none;
   color: white;
   text-align: center;
+  cursor: pointer;
 }
 
 /* Mobile style */
