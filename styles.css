@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 .headerbox {
@@ -52,6 +53,7 @@ body {
   color: #767676;
   text-align: center;
   background: none;
+  
 }
 
 h1 #h1box {
@@ -123,6 +125,7 @@ li {
   flex-basis: auto;
   width: 100px;
   padding: 10px;
+  font-size: 2.2vmin;
 }
 
 li:hover {
@@ -136,8 +139,9 @@ li:hover {
     display: flex;
     flex-direction: row wrap;
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
+  }
+  li {
+    flex-direction: row wrap;
   }
 }
 
