@@ -110,7 +110,7 @@ a:hover {
 
 ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: row nowrap;
   justify-content: space-between;
   background: rgb(250, 250, 250);
   padding: 15px;
@@ -120,7 +120,6 @@ ul {
 
 li {
   display: flex;
-  flex-direction: nowrap;
   flex-basis: auto;
   width: 100px;
   padding: 10px;
@@ -129,6 +128,17 @@ li {
 li:hover {
   font-weight: bold;
   box-shadow: 3px 3px 2px #D2C6F7;
+}
+
+/* Mobile style */
+@media only screen and (max-width: 400px) {
+  ul {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .buttontop {
@@ -159,7 +169,7 @@ li:hover {
     position: fixed;
     float: right;
     bottom: 30px;
-    left: 98%;
+    left: 99%;
   }
 }
 
