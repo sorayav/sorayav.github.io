@@ -1,6 +1,6 @@
 body {
   width: 100%;
-  background: linear-gradient(to top right, #D7D7D7, white);
+  background: linear-gradient(to top right, rgb(224, 224, 224), white);
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -18,12 +18,12 @@ body {
 }
 
 .headerbox:hover {
-  animation-name: hover;
+  animation-name: header-hover;
   animation-duration: 2500ms;
   animation-fill-mode: forwards;
 }
 
-@keyframes hover {
+@keyframes header-hover {
   25% {
     transform: skewY(-10deg);
     background: black;
@@ -67,6 +67,24 @@ h2 {
   margin-top: 70px;
 }
 
+h2::after {
+  content: " >";
+  font-size: 30px;
+  animation-name: arrow1;
+  animation-duration: 6000ms;
+  animation-delay: 6000ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes arrow1 {
+  50% {
+    color: #D2C6F7;
+  }
+  100% {
+    color: white;
+  }
+}
+
 main {
   position: relative;
   margin: 0 auto;
@@ -90,8 +108,27 @@ a:hover {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(250, 250, 250);
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+}
+
 li {
-  line-height: 180%;
+  display: flex;
+  flex-direction: nowrap;
+  flex-basis: auto;
+  width: 100px;
+  padding: 10px;
+}
+
+li:hover {
+  font-weight: bold;
+  box-shadow: 3px 3px 2px #D2C6F7;
 }
 
 .buttontop {
@@ -116,6 +153,16 @@ li {
   text-align: center;
 }
 
+/* Mobile style */
+@media only screen and (max-width: 400px) {
+  .buttontop {
+    position: fixed;
+    float: right;
+    bottom: 30px;
+    left: 95%;
+  }
+}
+
 footer {
   height: 50px;
   background: black;
@@ -132,9 +179,9 @@ footer {
 footer a {
   color: rgb(175, 175, 175);
 }
-/** Style for form
+/* Style for form
 input[type="text"] {
   height: 20px;
   font-size: 15px;
 }
-**/
+*/
