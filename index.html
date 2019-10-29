@@ -11,8 +11,7 @@
 </head>
 
 <body>
-  <button style="opacity: 0;" onclick="topFunction()" id="myBtn" title="Go to top"></button>
-  <div id="top"></div>
+  <button onclick="topFunction()" id="buttontop" title="Go to top"> ^ </button>
   
 <header>
   <div class="headerbox">
@@ -51,19 +50,18 @@
     -->
 </main>
 
-<div id="buttontop"><a href="#top"> ^ </a></div>
-
 <footer>
   <div class="footer-text">
   <a href="https://github.com/sorayav">Soraya V GitHub.</a><br>
   Header box inspired by <a href="https://www.behance.net/gallery/51450587/Graphic-Design-Portfolio-MinimalSimple" target=_blank>Robert Gray design.</a>
 </div>
 </footer>
+
 <script>
     //Script for the button
     let mybutton = document.getElementById("buttontop");
     
-    // When the user scrolls down 100px from the top of the page, show the button
+    // When the user scrolls down 200px from the top of the page, show the button
     window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
